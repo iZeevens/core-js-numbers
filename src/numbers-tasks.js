@@ -209,8 +209,7 @@ function isPrime(n) {
     return false;
   }
 
-  // eslint-disable-next-line no-plusplus
-  for (let i = 2; i < n; i++) {
+  for (let i = 2; i < n; i += 1) {
     if (n % i === 0) {
       return false;
     }
